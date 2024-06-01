@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABB3CECA2C0B603A00FD6BCE /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = ABB3CEC92C0B603A00FD6BCE /* RealityKitContent */; };
+		ABB3CECC2C0B603A00FD6BCE /* EmotiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3CECB2C0B603A00FD6BCE /* EmotiApp.swift */; };
+		ABB3CED22C0B603C00FD6BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB3CED12C0B603C00FD6BCE /* Assets.xcassets */; };
+		ABB3CED52C0B603C00FD6BCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB3CED42C0B603C00FD6BCE /* Preview Assets.xcassets */; };
+		ABB3CEE02C0B603C00FD6BCE /* EmotiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3CEDF2C0B603C00FD6BCE /* EmotiTests.swift */; };
+		ABB3CEEB2C0B60AC00FD6BCE /* IslandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3CEEA2C0B60AC00FD6BCE /* IslandViewModel.swift */; };
+		ABB3CEEE2C0B60F700FD6BCE /* IslandArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB3CEED2C0B60F700FD6BCE /* IslandArea.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB3CEDC2C0B603C00FD6BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB3CEBC2C0B603A00FD6BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB3CEC32C0B603A00FD6BCE;
+			remoteInfo = Emoti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABB3CEC42C0B603A00FD6BCE /* Emoti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emoti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB3CEC82C0B603A00FD6BCE /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		ABB3CECB2C0B603A00FD6BCE /* EmotiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotiApp.swift; sourceTree = "<group>"; };
+		ABB3CED12C0B603C00FD6BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABB3CED42C0B603C00FD6BCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABB3CED62C0B603C00FD6BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB3CEDB2C0B603C00FD6BCE /* EmotiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB3CEDF2C0B603C00FD6BCE /* EmotiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotiTests.swift; sourceTree = "<group>"; };
+		ABB3CEEA2C0B60AC00FD6BCE /* IslandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandViewModel.swift; sourceTree = "<group>"; };
+		ABB3CEED2C0B60F700FD6BCE /* IslandArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandArea.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB3CEC12C0B603A00FD6BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB3CECA2C0B603A00FD6BCE /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB3CED82C0B603C00FD6BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB3CEBB2C0B603A00FD6BCE = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEC62C0B603A00FD6BCE /* Emoti */,
+				ABB3CEC72C0B603A00FD6BCE /* Packages */,
+				ABB3CEDE2C0B603C00FD6BCE /* EmotiTests */,
+				ABB3CEC52C0B603A00FD6BCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB3CEC52C0B603A00FD6BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEC42C0B603A00FD6BCE /* Emoti.app */,
+				ABB3CEDB2C0B603C00FD6BCE /* EmotiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB3CEC62C0B603A00FD6BCE /* Emoti */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEEC2C0B60EA00FD6BCE /* RealityViews */,
+				ABB3CEE92C0B609900FD6BCE /* Models */,
+				ABB3CECB2C0B603A00FD6BCE /* EmotiApp.swift */,
+				ABB3CED12C0B603C00FD6BCE /* Assets.xcassets */,
+				ABB3CED62C0B603C00FD6BCE /* Info.plist */,
+				ABB3CED32C0B603C00FD6BCE /* Preview Content */,
+			);
+			path = Emoti;
+			sourceTree = "<group>";
+		};
+		ABB3CEC72C0B603A00FD6BCE /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEC82C0B603A00FD6BCE /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		ABB3CED32C0B603C00FD6BCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CED42C0B603C00FD6BCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABB3CEDE2C0B603C00FD6BCE /* EmotiTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEDF2C0B603C00FD6BCE /* EmotiTests.swift */,
+			);
+			path = EmotiTests;
+			sourceTree = "<group>";
+		};
+		ABB3CEE92C0B609900FD6BCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEEA2C0B60AC00FD6BCE /* IslandViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABB3CEEC2C0B60EA00FD6BCE /* RealityViews */ = {
+			isa = PBXGroup;
+			children = (
+				ABB3CEED2C0B60F700FD6BCE /* IslandArea.swift */,
+			);
+			path = RealityViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB3CEC32C0B603A00FD6BCE /* Emoti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB3CEE32C0B603C00FD6BCE /* Build configuration list for PBXNativeTarget "Emoti" */;
+			buildPhases = (
+				ABB3CEC02C0B603A00FD6BCE /* Sources */,
+				ABB3CEC12C0B603A00FD6BCE /* Frameworks */,
+				ABB3CEC22C0B603A00FD6BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emoti;
+			packageProductDependencies = (
+				ABB3CEC92C0B603A00FD6BCE /* RealityKitContent */,
+			);
+			productName = Emoti;
+			productReference = ABB3CEC42C0B603A00FD6BCE /* Emoti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB3CEDA2C0B603C00FD6BCE /* EmotiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB3CEE62C0B603C00FD6BCE /* Build configuration list for PBXNativeTarget "EmotiTests" */;
+			buildPhases = (
+				ABB3CED72C0B603C00FD6BCE /* Sources */,
+				ABB3CED82C0B603C00FD6BCE /* Frameworks */,
+				ABB3CED92C0B603C00FD6BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB3CEDD2C0B603C00FD6BCE /* PBXTargetDependency */,
+			);
+			name = EmotiTests;
+			productName = EmotiTests;
+			productReference = ABB3CEDB2C0B603C00FD6BCE /* EmotiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB3CEBC2C0B603A00FD6BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					ABB3CEC32C0B603A00FD6BCE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					ABB3CEDA2C0B603C00FD6BCE = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = ABB3CEC32C0B603A00FD6BCE;
+					};
+				};
+			};
+			buildConfigurationList = ABB3CEBF2C0B603A00FD6BCE /* Build configuration list for PBXProject "Emoti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB3CEBB2C0B603A00FD6BCE;
+			productRefGroup = ABB3CEC52C0B603A00FD6BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB3CEC32C0B603A00FD6BCE /* Emoti */,
+				ABB3CEDA2C0B603C00FD6BCE /* EmotiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB3CEC22C0B603A00FD6BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB3CED52C0B603C00FD6BCE /* Preview Assets.xcassets in Resources */,
+				ABB3CED22C0B603C00FD6BCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB3CED92C0B603C00FD6BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB3CEC02C0B603A00FD6BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB3CECC2C0B603A00FD6BCE /* EmotiApp.swift in Sources */,
+				ABB3CEEB2C0B60AC00FD6BCE /* IslandViewModel.swift in Sources */,
+				ABB3CEEE2C0B60F700FD6BCE /* IslandArea.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB3CED72C0B603C00FD6BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB3CEE02C0B603C00FD6BCE /* EmotiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB3CEDD2C0B603C00FD6BCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB3CEC32C0B603A00FD6BCE /* Emoti */;
+			targetProxy = ABB3CEDC2C0B603C00FD6BCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABB3CEE12C0B603C00FD6BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		ABB3CEE22C0B603C00FD6BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		ABB3CEE42C0B603C00FD6BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emoti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoself.Emoti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		ABB3CEE52C0B603C00FD6BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Emoti/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoself.Emoti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		ABB3CEE72C0B603C00FD6BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoself.EmotiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emoti";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		ABB3CEE82C0B603C00FD6BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neoself.EmotiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoti.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Emoti";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB3CEBF2C0B603A00FD6BCE /* Build configuration list for PBXProject "Emoti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB3CEE12C0B603C00FD6BCE /* Debug */,
+				ABB3CEE22C0B603C00FD6BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB3CEE32C0B603C00FD6BCE /* Build configuration list for PBXNativeTarget "Emoti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB3CEE42C0B603C00FD6BCE /* Debug */,
+				ABB3CEE52C0B603C00FD6BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB3CEE62C0B603C00FD6BCE /* Build configuration list for PBXNativeTarget "EmotiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB3CEE72C0B603C00FD6BCE /* Debug */,
+				ABB3CEE82C0B603C00FD6BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABB3CEC92C0B603A00FD6BCE /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ABB3CEBC2C0B603A00FD6BCE /* Project object */;
+}
